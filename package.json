@@ -1,0 +1,24 @@
+{
+  "name": "@indra.ai/chuckdeva",
+  "version": "0.0.1",
+  "description": "The Chuck Norris Deva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indraai/ChuckDeva.git"
+  },
+  "keywords": [
+    "Chuck",
+    "Norris",
+    "Deva"
+  ],
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indraai/ChuckDeva/issues"
+  },
+  "homepage": "https://github.com/indraai/ChuckDeva#readme"
+}
