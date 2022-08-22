@@ -1,4 +1,6 @@
 // Copyright (c)2022 Quinn Michaels
+// The Chuck Deva who tells Chuck Norris jokes.
+
 const fs = require('fs');
 const path = require('path');
 
@@ -27,6 +29,11 @@ const CHUCK = new Deva({
   modules: {},
   deva: {},
   func: {
+    /**************
+    func: joke
+    params: none
+    describe: Return a Chuck Norris Joke.
+    ***************/
     joke() {
       const joke = {
         text:[],
@@ -52,15 +59,39 @@ const CHUCK = new Deva({
     },
   },
   methods: {
+    /**************
+    method: joke
+    params: packet
+    describe: Call the joke function to return a Chuck Norris joke.
+    ***************/
     joke(packet) {
       return this.func.joke(packet);
     },
+
+    /**************
+    method: uid
+    params: packet
+    describe: Call the core unique id feature.
+    ***************/
     uid(packet) {
-      return Promise.resolve(this.uid());
+      return Promise.resolve({text:this.uid()});
     },
+
+    /**************
+    method: status
+    params: packet
+    describe: Return current status of the Chuck Deva.
+    ***************/
     status(packet) {
       return this.status();
     },
+
+    /**************
+    method: help
+    params: packet
+    describe: Call the Chuck Deva help file and then parse it through the
+    feecting deva before return.
+    ***************/
     help(packet) {
       return new Promise((resolve, reject) => {
         this.lib.help(packet.q.text, __dirname).then(help => {
