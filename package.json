@@ -1,6 +1,6 @@
 {
   "name": "@feecting/chuckdeva",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The Chuck Norris Deva",
   "main": "index.js",
   "scripts": {
