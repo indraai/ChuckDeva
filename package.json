@@ -1,5 +1,5 @@
 {
-  "name": "@feecting/chuckdeva",
+  "name": "@indra.ai/chuckdeva",
   "version": "0.0.4",
   "description": "The Chuck Norris Deva",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "url": "https://github.com/indraai/ChuckDeva/issues"
   },
   "dependencies": {
-    "@feecting/deva": "^1.0.25"
+    "@indra.ai/deva": "^1.0.25"
   },
   "homepage": "https://github.com/indraai/ChuckDeva#readme"
 }
