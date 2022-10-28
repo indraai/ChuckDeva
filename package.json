@@ -1,6 +1,6 @@
 {
   "name": "@indra.ai/chuckdeva",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The Chuck Norris Deva",
   "main": "index.js",
   "scripts": {
